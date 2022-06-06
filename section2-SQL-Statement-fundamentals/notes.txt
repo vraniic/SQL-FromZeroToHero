@@ -1,0 +1,46 @@
+===========
+DATABASES
+===========
+Databases are systems that allow users to store and organize data.
+
+They are useful when dealing with large amounts of data.
+
+
+===========
+SPREADSHEETS
+===========
+Most users have some familiarity with spreadsheet sofrware (Excel etc...)
+
+
+===========
+SELECT STATEMENT
+===========
+
+SELECT <IME tabele> FROM  <IME kolone>
+
+
+===========
+COUNT
+===========
+SELECT COUNT <NAME> FROM table
+
+
+RETURNS the number of input rows that match a specific condition of a query!
+
+We can apply COUNT on a specific column or just pass COUNT(*), as we will soon see this should return the same result!
+
+===========
+WHERE
+===========
+
+SELECT * FROM customer
+WHERE  <name>='IME'
+
+POSLE where treba da ide uslov koji treba da se ispuni da bi nam sql vratio odredjenu kolonu!
+
+
+===========
+ORDER BY 
+===========
+SELECT <kolone koje nam trebaju> FROM <tabela koju gledamo>
+ORDER BY <ime kolone po kojoj da se orderuje> + ASC/DESC
