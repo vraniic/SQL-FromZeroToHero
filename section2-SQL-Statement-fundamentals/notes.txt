@@ -44,3 +44,43 @@ ORDER BY
 ===========
 SELECT <kolone koje nam trebaju> FROM <tabela koju gledamo>
 ORDER BY <ime kolone po kojoj da se orderuje> + ASC/DESC
+
+
+===========
+LIMIT
+===========
+
+SELECT <kolone koje nam trebaju> FROM <tabela koju gledamo>
+ORDER BY <ime kolone po kojoj da se orderuje> + ASC/DESC
+LIMIT 5 --> da prikaze samo 5 most recent!
+
+===========
+BETWEEN
+===========
+value ARE inlucded!!!
+
+SELECT color FROM table 
+WHERE  color IN (COLORS)
+
+SELECTOVACE REDOVE KOJI IMAJU BOJU KOJA JE NAVEDENA U ZAGRADI
+
+
+
+===========
+NOT BETWEEN
+===========
+values are NOT included!
+
+
+===========
+LIKE
+===========
+
+CASE SENSITIVE 
+WHERE name LIKE 'A%' --> znaci da pocinje sa A ali se gleda iskljucivo veliko A
+
+dok ukoliko nmaestimo seldece
+WHERE name ILIKE '%a'
+onda se gleda nebitno da li malo ili veliko slovo tj. case insensitive
+
+~
